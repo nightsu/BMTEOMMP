@@ -13,6 +13,7 @@ app.use(createLoading());
 // 3. Model
 app.model(require('./models/system').default);
 app.model(require('./models/photo').default);
+app.model(require('./models/scene').default);
 
 // 4. Router
 app.router(require("./router").default);

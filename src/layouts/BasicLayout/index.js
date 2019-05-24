@@ -4,6 +4,7 @@ import MainRoutes from "./MainRoutes";
 import Header from "./components/Header";
 import MyIcon from "../../components/MyIcon";
 import Scene from "../../pages/GIS/Scene";
+import TOC from "../../pages/GIS/TOC";
 import { connect } from 'dva';
 
 
@@ -33,7 +34,9 @@ export default class BasicLayout extends Component {
         </div>
         <Header />
         <Layout style={{ display: sceneDisplay }}>
-          <Sider theme="light" style={{ display: TOCDisplay }}/>
+          <Sider theme="light" width="300" style={{ display: TOCDisplay }}>
+            <TOC/>
+          </Sider>
           <Content >
             <Scene />
           </Content>
