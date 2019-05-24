@@ -27,7 +27,7 @@ class MainRoutes extends Component {
         {routerData.map(this.renderNormalRoute)}
 
         {/* 首页默认重定向到 /dashboard */}
-        {/* <Redirect exact from="/" to="/" /> */}
+        {/* <Redirect exact from="/" to="/scene" /> */}
 
         {/* 未匹配到的路由重定向到 <Guide> 组件，实际情况应该重定向到 404 */}
         <Route component={NotFound} />

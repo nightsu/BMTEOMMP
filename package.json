@@ -9,9 +9,11 @@
   "dependencies": {
     "@esri/react-arcgis": "^4.0.0",
     "antd": "^3.18.2",
+    "axios": "^0.18.0",
     "dva": "^2.4.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-image-gallery": "^0.8.16"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.3.2",
