@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ItemDrawing from '../GIS/TOC/ItemDrawing';
 
 class Drawing extends Component {
   constructor(props) {
@@ -6,8 +7,10 @@ class Drawing extends Component {
     this.state = {  }
   }
   render() { 
-    return ( 
-      <h1>Drawing</h1>
+    return (
+      <div style={{height:"100%"}}>
+        <ItemDrawing/>
+      </div>
      );
   }
 }
